@@ -18,3 +18,53 @@ html, body {
     background-color: rgb(46, 90, 219);
     cursor: pointer;
 }
+
+#close-modal {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+#modal {
+    background-color: #FFF;
+    padding: 20px;
+    height: 200px;
+    margin: 0 auto;
+    max-width: 600px;
+    position: relative;
+    top: 30%;
+}
+
+.text {
+    margin-bottom: 1em;
+    padding: .5em;
+}
+
+#send-btn {
+    display: block;
+    margin: 0 auto;
+    background-color: royalblue;
+    padding: .5em 1em;
+    color: #FFF;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+#send-btn:hover {
+    background-color: rgb(46, 90, 219);
+    cursor: pointer;
+}
+
+#overlay {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(170, 169, 169, 0.8);
+}
